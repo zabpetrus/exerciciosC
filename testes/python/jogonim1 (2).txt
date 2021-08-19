@@ -1,0 +1,53 @@
+Nome do arquivo: Jogo do NIM
+3/10Pontuação: 3 de 10
+Ocultar resultado do contador de pontuação
+resultado do contador de pontuação
+O resultado dos testes com seu programa foi:
+
+***** [0.04 pontos]: Testando usuario_escolhe_jogada com jogada inválida: valor <= 0 (n = 5, m = 3, respostas 0, 2) - Falhou *****
+Timeout
+
+***** [0.04 pontos]: Testando usuario_escolhe_jogada com jogada inválida: valor <= 0 (n = 5, m = 3, respostas -1, 3) - Falhou *****
+Timeout
+
+***** [0.05 pontos]: Testando usuario_escolhe_jogada com múltiplas jogadas inválidas (n = 5, m = 3, respostas 5, 0, -1, 2) - Falhou *****
+Timeout
+
+***** [0.11 pontos]: Testando se computador_escolhe_jogada usa a estratégia vencedora (n = 14, m = 4) - Falhou *****
+AssertionError: Esperado: 4; recebido: 9
+computador_escolhe_jogada deve usar a estratégia vencedora e devolver o número de peças que o computador vai remover nessa jogada.
+
+***** [0.11 pontos]: Testando se computador_escolhe_jogada usa a estratégia vencedora (n = 13, m = 4) - Falhou *****
+AssertionError: Esperado: 3; recebido: 9
+computador_escolhe_jogada deve usar a estratégia vencedora e devolver o número de peças que o computador vai remover nessa jogada.
+
+***** [0.11 pontos]: Testando se computador_escolhe_jogada usa a estratégia vencedora (n = 11, m = 4) - Falhou *****
+AssertionError: Esperado: 1; recebido: 9
+computador_escolhe_jogada deve usar a estratégia vencedora e devolver o número de peças que o computador vai remover nessa jogada.
+
+***** [0.03 pontos]: Testando jogada do computador quando é impossível usar a estratégia vencedora (n = 6, m = 2) - Falhou *****
+AssertionError: Esperado: 2; recebido: 5
+Quando não é possível usar a estratégia vencedora, computador_escolhe_jogada deve remover m peças do tabuleiro
+
+***** [0.03 pontos]: Testando jogada do computador quando é impossível usar a estratégia vencedora (n = 4, m = 1) - Falhou *****
+AssertionError: Esperado: 1; recebido: 3
+Quando não é possível usar a estratégia vencedora, computador_escolhe_jogada deve remover m peças do tabuleiro
+
+***** [0.03 pontos]: Testando jogada do computador quando é impossível usar a estratégia vencedora (n = 15, m = 4) - Falhou *****
+AssertionError: Esperado: 4; recebido: 14
+Quando não é possível usar a estratégia vencedora, computador_escolhe_jogada deve remover m peças do tabuleiro
+
+***** [0.32 pontos]: Checando partida unica (n = 5, m = 3, jogadas = (2,)) - Falhou *****
+AssertionError: Computador deveria ter ganhado
+
+***** [0.32 pontos]: Checando partida unica (n = 9, m = 2, jogadas = (1, 2, 2)) - Falhou *****
+AssertionError: Computador deveria ter ganhado
+
+***** [0.32 pontos]: Checando partida unica (n = 9, m = 2, jogadas = (1, 2, 1)) - Falhou *****
+AssertionError: Computador deveria ter ganhado
+
+***** [0.32 pontos]: Checando partida unica (n = 11, m = 3, jogadas = (2, 3)) - Falhou *****
+AssertionError: Computador deveria ter ganhado
+
+***** [0.12 pontos]: Checando campeonato (partida 1: n = 5, m = 3, jogadas = [1]; partida 2: n = 5, m = 3, jogadas = [2]; partida 3: n = 9, m = 2, jogadas = [1, 2, 2]) - Falhou *****
+AssertionError: Computador deveria ter ganhado

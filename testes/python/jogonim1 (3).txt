@@ -1,0 +1,13 @@
+O resultado dos testes com seu programa foi:
+
+***** [0.03 pontos]: Testando jogada do computador quando é impossível usar a estratégia vencedora (n = 6, m = 2) - Falhou *****
+AssertionError: Esperado: 2; recebido: 0
+Quando não é possível usar a estratégia vencedora, computador_escolhe_jogada deve remover m peças do tabuleiro
+
+***** [0.03 pontos]: Testando jogada do computador quando é impossível usar a estratégia vencedora (n = 4, m = 1) - Falhou *****
+AssertionError: Esperado: 1; recebido: 0
+Quando não é possível usar a estratégia vencedora, computador_escolhe_jogada deve remover m peças do tabuleiro
+
+***** [0.03 pontos]: Testando jogada do computador quando é impossível usar a estratégia vencedora (n = 15, m = 4) - Falhou *****
+AssertionError: Esperado: 4; recebido: 0
+Quando não é possível usar a estratégia vencedora, computador_escolhe_jogada deve remover m peças do tabuleiro
